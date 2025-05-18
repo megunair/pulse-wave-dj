@@ -1,0 +1,38 @@
+{
+  "name": "pulse-wave-dj",
+  "version": "1.0.0",
+  "description": "Next-gen website for DJ performance tech with futuristic cyberpunk aesthetics",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "serve",
+    "lint:js": "eslint scripts.js",
+    "lint:css": "stylelint styles.css",
+    "lint:html": "html-validate index.html",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
+    "test": "echo \"No tests implemented yet\""
+  },
+  "keywords": [
+    "dj",
+    "music",
+    "cyberpunk",
+    "tech",
+    "performance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "html-validate": "^7.13.1",
+    "serve": "^14.2.0",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megunair/pulse-wave-dj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/megunair/pulse-wave-dj/issues"
+  },
+  "homepage": "https://github.com/megunair/pulse-wave-dj#readme"
+}
